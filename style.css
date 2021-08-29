@@ -4,3 +4,7 @@ body{
     background-color: gray;
     font-family: 'Montserrat', sans-serif;
 }
+
+#user-container img{
+    width: 250px;
+}

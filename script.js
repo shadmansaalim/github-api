@@ -30,7 +30,7 @@ const displayUser = user => {
         const userContainer = document.getElementById('user-container');
         userContainer.textContent = '';
         userContainer.innerHTML = `
-       <img class="col-6 col-md-3 mx-auto mt-5 rounded-circle" src="${user.avatar_url}" alt="">
+       <img class="mt-5 rounded-circle" src="${user.avatar_url}" alt="">
     `
         const h2 = document.createElement('h2');
         h2.classList.add('text-white', 'text-center', 'mt-2');
